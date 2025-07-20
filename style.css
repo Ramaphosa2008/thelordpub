@@ -1,9 +1,13 @@
-body {
+  * {
     margin: 0;
-    font-family: Arial, sans-serif;
-    
-}
-
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background:darkblue;
+    color: white;
+  }
 .top-header {
     display: flex;
     justify-content: space-between;
@@ -93,7 +97,7 @@ body {
   .hero {
     text-align: center;
     padding: 3rem 0;
-    background: url(Images/header.jpg) ;
+    background: url(header.jpg) ;
     height: 280px;
     
   }
